@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MedUS - Menu</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/solig.css">
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <div class="menu">
+      <a href="solicitacao.html">Solicitações</a>
+      <a href="relatorio.html">Relatórios</a>
+      <a href="transferencia.html">Transferência</a>
+      <a href="#">Usuário</a>
+    </div>
+  </header>
+  <main class="centralize">
+    <div id="foto">
+      <img class="foto" src="img/doctor.jpg" />
+    </div>
+    <div id="info-container">
+      <div id="nome">
+        <span>Nome: </span>
+      </div>
+      <div id="crm-tempo-com">
+        <div>
+          <span id="crm">CRM: 000000-XX</span>
+        </div>
+        <div>
+          <span id="tempo">Tempo de Atuação: 00 meses</span>
+        </div>
+        <div>
+          <span id="com">COM: 0000</span>
+        </div>
+      </div>
+      <div id="tipo-dt-sit">
+        <div>
+          <span id="tipo">Tipo: Mudança de município</span>
+        </div>
+        <div>
+          <span id="dt">Data de solicitação: 00/00/0000</span>
+        </div>
+        <div>
+          <span id="sit">Situação: EM ANÁLISE</span>
+        </div>
+      </div>
+      <div id="descsol">
+        <div>
+          <div id="desc">Descrição da Solicitação:</div>
+        </div>
+      </div>
+      <div id="resp">Responder Solicitação</div>
+      <div id="aprep">
+        <div>
+          <div id="aprovar">APROVAR</div>
+        </div>
+        <div>
+          <div id="reprovar">REPROVAR</div>
+        </div>
+      </div>
+      <div class="botvoltar">    
+        <div class="voltar">
+          <a href="solicitacao.html">Voltar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    // Get the approval and rejection elements
+    const aprovar = document.getElementById('aprovar');
+    const reprovar = document.getElementById('reprovar');
+
+    // Add click event listeners to the approval and rejection elements
+    aprovar.addEventListener('click', function() {
+      // Redirect to solicitacao.html
+      window.location.href = 'solicitacao.html';
+    });
+
+    reprovar.addEventListener('click', function() {
+      // Redirect to solicitacao.html
+      window.location.href = 'solicitacao.html';
+    });
+  </script>
+</body>
+</html>

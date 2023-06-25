@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MedUS - Menu</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/solig.css">
+  <meta charset="utf-8"/>
+  <style>
+    .box {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    #crm-tempo-com,
+    #cod-dt-pac-tipo {
+      display: flex;
+      align-items: center;
+    }
+
+    #cod-dt-pac-tipo span:not(:last-child) {
+      margin-right: 130px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+
+    #volts{
+    padding-top: 50px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <div class="menu">
+      <a href="solicitacao.html">Solicitações</a>
+      <a href="relatorio.html">Relatórios</a>
+      <a href="transferencia.html">Transferência</a>
+      <a href="#">Usuário</a>
+    </div>
+  </header>
+  <main class="centralize">
+    <div id="foto">
+      <img class="foto" src="img/doctor.jpg" />
+    </div>
+    <div id="info-container">
+      <div id="nome">
+        <span>Nome: </span>
+      </div>
+      <div id="crm-tempo-com">
+        <div>
+          <span id="crm" class="box">CRM: 000000-XX</span>
+        </div>
+        <div>
+          <span id="tempo" class="box">Qtd de Relatórios: 000</span>
+        </div>
+        <div>
+          <span id="com" class="box">COM: 0000</span>
+        </div>
+      </div>
+
+      <div id="cod-dt-pac-tipo">
+        <span id="cod" class="box">Codigo:</span>
+        <span id="dt" class="box">Data:</span>
+        <span id="pac" class="box">Paciente</span>
+        <span id="Tipo" class="box">Tipo:</span>
+      </div>
+      <div id="cod-dt-pac-tipo">
+        <span id="codt" class="box">001</span>
+        <span id="dtt" class="box">00/00/0000</span>
+        <span id="pact" class="box">María josé</span>
+        <span id="Tipot" class="box">Check-up</span>
+      </div>
+      <div id="cod-dt-pac-tipo">
+        <span id="codt" class="box">002</span>
+        <span id="dtt" class="box">00/00/0000</span>
+        <span id="pact" class="box">Pocahontas</span>
+        <span id="Tipot" class="box">Check-up</span>
+      </div>
+      <div id="cod-dt-pac-tipo">
+        <span id="codt" class="box">003</span>
+        <span id="dtt" class="box">00/00/0000</span>
+        <span id="pact" class="box">Evangeline</span>
+        <span id="Tipot" class="box">Check-up</span>
+      </div>
+      <div id="cod-dt-pac-tipo">
+        <span id="codt" class="box">004</span>
+        <span id="dtt" class="box">00/00/0000</span>
+        <span id="pact" class="box">Cristopher</span>
+        <span id="Tipot" class="box">Check-up</span>
+      </div>
+      <div id="cod-dt-pac-tipo">
+        <span id="codt" class="box">005</span>
+        <span id="dtt" class="box">00/00/0000</span>
+        <span id="pact" class="box">Franchesco</span>
+        <span id="Tipot" class="box">Check-up</span>
+      </div>
+      
+      <div class="botvoltar" id="volts">    
+        <div class="voltar">
+          <a href="solicitacao.html">Voltar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

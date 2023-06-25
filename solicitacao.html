@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MedUS - Solicitacao</title>
+  <link rel="stylesheet" href="css/header.css">
+  <style>
+    .solicitacao-container {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .solicitacao-label-m {
+      font-weight: bold;
+      margin-left: 70px;
+    }
+
+    .solicitacao-label-r {
+      font-weight: bold;
+      margin-left: 0px;
+    }
+
+    .solicitacao-label-d {
+      font-weight: bold;
+      margin-left: 90px;
+    }
+
+    .solicitacao-label-s {
+      font-weight: bold;
+      margin-right: 250px;
+    }
+
+    .solicitacao-item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .solicitacao-item:last-child {
+      border-bottom: none;
+    }
+
+    .solicitacao-item img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .solicitacao-info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .solicitacao-info h3 {
+      margin: 0;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+
+    .solicitacao-info p {
+      margin: 0;
+      margin-right: 20px;
+      font-size: 16px;
+    }
+
+    .solicitacao-info-item {
+      border-left: 1px solid #ccc;
+      padding-left: 10px;
+    }
+
+    .centralize {
+      padding-top: 150px;
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <div class="menu">
+      <a href="solicitacao.html">Solicitações</a>
+      <a href="relatorio.html">Relatórios</a>
+      <a href="transferencia.html">Transferência</a>
+      <a href="#">Usuário</a>
+    </div>
+  </header>
+  <main class="centralize">
+    <div class="solicitacao-container">
+      <div class="solicitacao-label-m">Nome do médico:</div>
+      <div class="solicitacao-label-r">Resumo da operação:</div>
+      <div class="solicitacao-label-d">Data:</div>
+      <div class="solicitacao-label-s">Situação:</div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 13 de junho de 2023</p>
+        <p class="solicitacao-info-item">Situação: Aprovado</p>
+      </div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 15 de junho de 2023</p>
+        <p class="solicitacao-info-item">Situação: Pendente</p>
+      </div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 13 de março de 2023</p>
+        <p class="solicitacao-info-item">Situação: Recusado</p>
+      </div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 25 de março de 2023</p>
+        <p class="solicitacao-info-item">Situação: Pendente</p>
+      </div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 23 de junho de 2023</p>
+        <p class="solicitacao-info-item">Situação: Aprovado</p>
+      </div>
+    </div>
+    <div class="solicitacao-item">
+      <img src="img/doctor.jpg" alt="Médico">
+      <div class="solicitacao-info">
+        <h3 id="nome-medico">Nome do Médico</h3>
+        <p class="solicitacao-info-item">Resumo da Operação Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="solicitacao-info-item">Data: 23 de julho de 2023</p>
+        <p class="solicitacao-info-item">Situação: Aprovado</p>
+      </div>
+    </div>
+  </main>
+  <script>
+    // Get the doctor's name element
+    const nomeMedicoElement = document.getElementById('nome-medico');
+
+    // Add a click event listener to the doctor's name
+    nomeMedicoElement.addEventListener('click', function() {
+      // Redirect to soli-gerente.html
+      window.location.href = 'soli-gerente.html';
+    });
+  </script>
+</body>
+</html>

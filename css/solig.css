@@ -1,0 +1,101 @@
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  #foto {
+    display: inline-block;
+    padding-bottom: 180px;
+  }
+  
+  #nome {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the margin as needed */
+    margin-bottom: 10px;
+    border: 1px solid black; /* Add border styling */
+    padding-right: 600px; /* Add padding for spacing within the box */
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #crm-tempo-com {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust the margin as needed */
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #crm,
+  #tempo,
+  #com {
+    margin-right: 112px; /* Adjust the margin as needed */
+    border: 1px solid black; /* Add border styling */
+    padding: 5px; /* Add padding for spacing within the box */
+  }
+  
+  
+  #tipo-dt-sit {
+    display: flex;
+    align-items: center;
+    margin-left: 11px; /* Adjust the margin as needed */
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #tipo,
+  #dt,
+  #sit {
+    margin-right: 31px; /* Adjust the margin as needed */
+    border: 1px solid black; /* Add border styling */
+    padding: 5px; /* Add padding for spacing within the box */
+  }
+  
+  #descsol {
+    margin-top: 10px; /* Add spacing between tipo-dt-sit and descsol */
+    margin-bottom: 10px; /* Add spacing between descsol and resp */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #desc {
+    font-weight: bold; /* Make the description text bold */
+  }
+  
+  #resp {
+    margin-top: 10px; /* Add spacing between descsol and resp */
+    margin-bottom: 10px; /* Add spacing between resp and ap/rep */
+    margin-right: 10px; /* Adjust the margin as needed */
+    border: 1px solid black; /* Add border styling */
+    padding: 5px; /* Add padding for spacing within the box */
+    display: flex;
+    justify-content: center;
+  }
+  
+  #aprep {
+    margin-top: 10px; /* Add spacing between resp and ap/rep */
+    display: flex;
+    justify-content: center; /* Position elements at each end of the container */
+    align-items: center;
+  }
+  
+  #aprovar,
+  #reprovar {
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-right: 10px; /* Add margin to create spacing */
+  }
+  
+
+  #descsol {
+    margin-top: 10px; /* Add spacing between tipo-dt-sit and descsol */
+    margin-bottom: 10px; /* Add spacing between descsol and resp */
+    border: 1px solid black; /* Add border styling */
+    padding-bottom: 80px; /* Add padding for spacing within the box */
+  }
+  
+  
